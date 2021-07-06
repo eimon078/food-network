@@ -1,0 +1,161 @@
+body{
+  font-family: 'Poppins', sans-serif;
+  color: rgb(84, 84, 99);
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+
+}
+.header {
+  overflow: hidden;
+  background-color: #e01e1e;
+  padding: 20px 10px;
+}
+
+.header a {
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+  border: 2px solid white;
+  background-image: linear-gradient(to right, orange,tomato);
+}
+
+.header-right {
+  float: right;
+}
+
+h1{
+    font-size: 70px;
+    padding-top: 5%;
+}
+span{
+    color: orange;
+}
+.flexible-container{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+.half-width{
+    width: 50%;
+}
+.half-width img{
+    width: 100%;
+    height: auto;
+    padding-top: 5%;
+    padding-bottom:5% ;
+    
+}
+.half-width p{
+    margin-bottom: 10%
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(to right, orange,red);
+    color:white;
+    font-weight: 700px;
+    padding: 20px 40px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgb(241, 204, 135);
+}
+
+.wrapper{
+    display: flex;
+    background-image: url("images/7.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  #img-shape{
+    width: auto;
+    height: autp;
+    padding-left: 20%;
+    padding-top: 5%;
+  }
+  h2{
+    padding-top: 15%;
+    padding-bottom: 10%;
+  }
+  #content{
+      text-align: center;
+      justify-content: center;
+  }
+  h3{
+    color: #000;
+    font-size: 26px;
+    margin-top: 25px;
+  }
+
+  .all_recepie{
+    display: flex;  
+    justify-content: center;
+    width: auto;
+    text-align: center;
+  }
+
+  .recepie_item{
+    width: 33.33%;
+    margin-right: 3%;
+    margin-left: 3%;
+    border-radius: 30px;
+    box-shadow: 10px 10px 40px gray;
+    text-align: left;
+    padding: 1%;
+  }
+
+  .recepie_img{
+    width: auto;
+    height: auto;
+  }
+
+  .recepie_img img{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 7%;
+  }
+
+
+.marge {
+    float: left;
+    padding: 10px;
+    width: 33.33%;
+    text-align: center;
+    margin-bottom: 3%;
+
+  }
+
+.shape{
+    box-shadow: 10px 10px 40px gray;
+    text-align: left;
+    border-radius: 30px; 
+    margin-top: 7%;
+    justify-content: center;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: 5%;
+} 
+.marge h1{
+    font-size: 50px;
+    color: black;
+}
+
+footer div{
+    text-align: center;
+    background-color: black;
+    margin-top: 5%;
+}
+footer p{
+    color: white;
+    padding-bottom: 8%;
+    padding-top: 2%;
+    font-size: 15px;
+}
+footer h1{
+    padding-top: 2%;
+    font-size: 35px;
+}
